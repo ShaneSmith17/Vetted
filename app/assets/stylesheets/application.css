@@ -15,3 +15,114 @@
  *= require foundation_and_overrides
 
  */
+
+ /* Typefaces */
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap');
+
+  /* Type */
+ 
+ h1, h2, h3, h1 a, h2 a, h3 a {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 800;
+     letter-spacing: 0.15em;
+     text-transform:lowercase;
+     font-variant: small-caps;
+     color: #7A8054;
+  }
+ 
+ h1 {
+     font-size: 24px;
+     line-height: 28px;
+ }
+ 
+ h2 {
+     font-size: 16px;
+     line-height: 19px;
+ }
+ 
+ h3 {
+     font-size: 13px;
+     line-height: 16px;  
+ }
+ 
+  /* Buttons */
+ 
+  a.button {
+     background-color:#7A8054;
+     margin: 0;
+  }
+  
+  /* Body */
+ 
+  body {
+     background: #303E47;
+     color: #FFFFFF;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 18px;
+  }
+ 
+  .site-container {
+     max-width: 1200px;
+     margin: 100px auto;
+  }
+ 
+ /* Navigation */
+ 
+ .nav {
+     background-color: #242E35;
+     display: grid;
+     margin: auto;
+     grid-template-columns: 25% 50% 25%;
+ }
+ 
+ .nav img {
+     max-height: 65px;
+ }
+ 
+ .nav div {
+     padding: 15px;
+ }
+ 
+ .nav ul {
+     margin: 0;
+ }
+ 
+ .nav li {
+     font-size: inherit;
+     list-style: none;
+     display: inline-block;
+     margin: 15px 15px 15px 0px;
+ }
+ 
+ .nav li a {
+     color:#FFFFFF;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 800;
+     letter-spacing: 0.15em;
+     text-transform:lowercase;
+     font-variant: small-caps;
+ }
+ 
+ .nav-left {
+     text-align: left;
+ }
+ 
+ .nav-center {
+     text-align: center;
+ }
+ 
+ .nav-right {
+     text-align: right;
+ }
+ 
+ /* Reviews */
+ 
+ .review-card {
+     background: #242E35;
+     max-width: 800px;
+     margin: 25px 0px;
+     padding: 25px;
+ }
