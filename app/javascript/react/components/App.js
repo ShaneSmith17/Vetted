@@ -1,7 +1,13 @@
 import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 export const App = (props) => {
-  return (<h1>Make It So React</h1>)
+  return (
+    <Router>
+      <Switch>
+      </Switch> 
+    </Router>
+  )
 }
 
 export default App
