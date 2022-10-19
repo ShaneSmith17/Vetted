@@ -1,4 +1,4 @@
-class Submissions < ApplicationRecord 
+class Submission < ApplicationRecord 
   validates :title, presence: true 
   validates :body, presence: true 
 end 
